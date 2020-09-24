@@ -20,3 +20,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
  });
 
 })
+
+/* Initialize tooltips */
+ $(function () {
+ $('[data-toggle="tooltip"]').tooltip()
+ })
