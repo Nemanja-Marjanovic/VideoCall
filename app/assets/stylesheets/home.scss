@@ -32,6 +32,17 @@ body {
     background-color: #4169E1;
     border-color: #4169E1;
   }
+
+  &.state-btn {
+    border-color: $greenColor;
+    color: $greenColor !important;
+  }
+
+  &.state-btn:hover, &.state-btn.online {
+    background-color: $greenColor;
+    border-color: $greenColor;
+    color: white !important;
+  }
 }
 
 /** =================== HEADER STYLES ================== **/
