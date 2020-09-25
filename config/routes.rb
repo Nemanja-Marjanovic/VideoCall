@@ -3,6 +3,10 @@ Rails.application.routes.draw do
 
   root to: 'home#index'
 
+  post 'online', to: 'home#online'
+  post 'offline', to: 'home#offline'
+
+
   devise_scope :user do
     get 'login', to: 'devise/sessions#new'
     get 'register', to: 'devise/registrations#new'

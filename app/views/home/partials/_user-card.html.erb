@@ -1,9 +1,4 @@
 <div class="dev-card p-3 my-3 text-center">
-  <% if user.avatar.attached? %>
-    <%= image_tag user.avatar %>
-  <% else %>
-    <img src="assets/avatar5.jpeg" alt="">
-  <% end %>
   <h6 class="dev-name text-white">
     <%= user.name %>
     <span class="appearance <%= user.state %>" id="js-appearance<%= user.id %>">
